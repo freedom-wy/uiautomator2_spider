@@ -1,0 +1,2 @@
+# uiautomator2_spider
+通过uiautomator2实现的爬虫
