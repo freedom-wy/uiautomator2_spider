@@ -1,4 +1,4 @@
-# 通过uiautomator2实现的QQ新闻app广告数据抓取
+# 通过uiautomator2实现的腾讯新闻app广告数据抓取
 
 ### 1、不需要登录QQ新闻app
 ### 2、使用uiautomator2启动QQ新闻app，并实现模拟点击滑动等操作
