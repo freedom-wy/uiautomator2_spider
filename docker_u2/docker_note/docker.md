@@ -30,7 +30,39 @@
 **docker info**  查看账号信息  
 **docker tag 镜像名称:版本号 远程仓库名称:版本号**  上传前需要更改标签  
 **docker push 镜像名称:版本号**  上传镜像到docker hub
+***
+### 构建docker image步骤  
+1、创建目录 如创建docker  
+2、编辑Dockerfile文件，文件内容  
+```dockerfile
+FROM sgrio/ubuntu-python
+MAINTAINER dazhuang <dazhuang_python@sina.com>
 
+EXPOSE 8080 8081
 
+RUN apt-get update && \
+    apt-get install \
+        --no-install-recommends -y \
+        build-essential \
+        libssl-dev \
+        python3-dev && \
+    pip3 install \
+        --no-cache-dir \
+        mitmproxy pymongo Appium-Python-Client requests selenium flask pymysql sqlalchemy uiautomator2 weditor&& \
+    apt-get remove --purge -y \
+        build-essential \
+        libssl-dev \
+        python3-dev && \
+    apt-get autoclean && \
+    apt-get autoremove --purge -y && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+```  
+3、构建docker images：docker build -t imooc_python .  
+***
+### 上传docker image到hub
+1、首先docker login 验证信息  
+2、查看当前已生成好的docker images  
+3、在docker hub上创建仓库，如果REPOITORY的名不是你Docker hub账号和仓库，即Docker ID/仓库名，是上传不成功的，当然可以使用docker tag 镜像ID 用户名称/镜像源名(repository name):新的标签名(tag)来更改  
+4、docker push<hub-user>/<repo-name>:<tag> 上传image
 
 #### bug:dazhuang_python@sina.com
