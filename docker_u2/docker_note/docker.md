@@ -63,7 +63,7 @@ RUN apt-get update && \
 1、首先docker login 验证信息  
 2、查看当前已生成好的docker images  
 3、在docker hub上创建仓库，如果REPOITORY的名不是你Docker hub账号和仓库，即Docker ID/仓库名，是上传不成功的，当然可以使用docker tag 镜像ID 用户名称/镜像源名(repository name):新的标签名(tag)来更改  
-4、docker push<hub-user>/<repo-name>:<tag> 上传image  
+4、```docker push<hub-user>/<repo-name>:<tag>``` 上传image  
 ***
 ### 更改docker toolbox的vitualbox到vmware workstation
 1、下载docker-machine-driver-vmwareworkstation(docker vmware的驱动)  
