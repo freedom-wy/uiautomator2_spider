@@ -15,6 +15,10 @@ import time
     #python -m uiautomator2 init
 
 class Handle_douyin(object):
+    """
+    使用uiautomator2模拟滑动抖音app,由于抖音app版本更新，修改了控件元素ID等值
+    修复部分bug
+    """
     #初始化设备
     def __init__(self):
         #连接手机
@@ -30,16 +34,25 @@ class Handle_douyin(object):
     #滑动逻辑
     def handle_swipe(self):
         #点击搜索
-        if self.d(resourceId="com.ss.android.ugc.aweme:id/aft").exists(timeout=10):
-            self.d(resourceId="com.ss.android.ugc.aweme:id/aft").click()
+        # if self.d(resourceId="com.ss.android.ugc.aweme:id/aft").exists(timeout=10):
+        #     self.d(resourceId="com.ss.android.ugc.aweme:id/aft").click()
+        if self.d(resourceId="com.ss.android.ugc.aweme:id/ah1").exists(timeout=10):
+            self.d(resourceId="com.ss.android.ugc.aweme:id/ah1").click()
         #定位到搜索框
-        if self.d(resourceId="com.ss.android.ugc.aweme:id/jt").exists(timeout=10):
-            self.d(resourceId="com.ss.android.ugc.aweme:id/jt").click()
+        # if self.d(resourceId="com.ss.android.ugc.aweme:id/jt").exists(timeout=10):
+        #     self.d(resourceId="com.ss.android.ugc.aweme:id/jt").click()
+        if self.d(resourceId="com.ss.android.ugc.aweme:id/ci6").exists(timeout=10):
+            self.d(resourceId="com.ss.android.ugc.aweme:id/ci6").click()
             time.sleep(1)
         #发送要搜索的id
-        self.d(resourceId="com.ss.android.ugc.aweme:id/jt").set_text("191433445")
+        self.d.send_keys("191433445", clear=True)
+        # self.d(resourceId="com.ss.android.ugc.aweme:id/ci6").set_text("191433445")
+        # while self.d(resourceId="com.ss.android.ugc.aweme:id/ci6").get_text() != "191433445":
+        #     self.d(resourceId="com.ss.android.ugc.aweme:id/ci6").set_text("191433445")
+        #     time.sleep(1)
         #点击搜索
-        self.d(resourceId="com.ss.android.ugc.aweme:id/a8w").click()
+        # self.d(resourceId="com.ss.android.ugc.aweme:id/a8w").click()
+        self.d(resourceId="com.ss.android.ugc.aweme:id/dq8").click()
         #点击用户标签
         if self.d(resourceId="android:id/text1", text=u"用户").exists(timeout=10):
             self.d(resourceId="android:id/text1", text=u"用户").click()
