@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dbd9fbc-59e2-4819-8c6f-1dc859cc96ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/uiautomator2_spider$device_info.coverage" NAME="device_info Coverage Results" MODIFIED="1567087568368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docker_u2/test_file" />
+    <SUITE FILE_PATH="coverage/uiautomator2_spider$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1568036804789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建" />
     <SUITE FILE_PATH="coverage/uiautomator2_spider$Handle_douyin_u2.coverage" NAME="Handle_douyin_u2 Coverage Results" MODIFIED="1567260309642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
     <SUITE FILE_PATH="coverage/uiautomator2_spider$test.coverage" NAME="test Coverage Results" MODIFIED="1567258238026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
   </component>
@@ -19,19 +20,20 @@
     <session id="682462508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="md" value="7" />
-          <entry key="py" value="4" />
+          <entry key="md" value="10" />
+          <entry key="py" value="7" />
           <entry key="python_history" value="1" />
           <entry key="sh" value="1" />
         </counts>
@@ -39,39 +41,65 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="24" />
-          <entry key="md" value="2817" />
-          <entry key="py" value="837" />
+          <entry key="dummy" value="9" />
+          <entry key="md" value="3046" />
+          <entry key="py" value="1395" />
           <entry key="sh" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="24" />
-          <entry key="Markdown" value="2817" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="837" />
+          <entry key="Markdown" value="3046" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="1395" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/代理服务器搭建_linux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="89" />
+              <first_editor relative-caret-position="96">
+                <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/flask_run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <marker date="1568036802477" expanded="true" signature="77:109" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/mitmdump_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1568043272851" expanded="true" signature="122:127" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +128,10 @@
         <option value="$PROJECT_DIR$/douyin/test.py" />
         <option value="$PROJECT_DIR$/douyin/Handle_douyin_u2.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mitmproxy使用/README.md" />
+        <option value="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建_linux.md" />
+        <option value="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/test.py" />
+        <option value="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/mitmdump_test.py" />
       </list>
     </option>
   </component>
@@ -109,11 +141,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="272" />
-    <option name="y" value="270" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="861" />
+    <option name="y" value="40" />
     <option name="width" value="1296" />
-    <option name="height" value="736" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -134,7 +166,18 @@
             <path>
               <item name="uiautomator2_spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="uiautomator2_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="douyin" type="462c0819:PsiDirectoryNode" />
+              <item name="didi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uiautomator2_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiautomator2_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="mitmproxy使用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uiautomator2_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiautomator2_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="mitmproxy使用" type="462c0819:PsiDirectoryNode" />
+              <item name="代理服务器搭建" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,16 +187,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study\u2\uiautomator2_spider\docker_u2\docker_note" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\u2\uiautomator2_spider\mitmproxy使用" />
       <recent name="C:\study\u2\uiautomator2_spider\docker_u2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\u2\uiautomator2_spider\mitmproxy使用\代理服务器搭建" />
+      <recent name="C:\study\u2\uiautomator2_spider\docker_u2\docker_note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Handle_douyin_u2">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="Handle_douyin_u2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="uiautomator2_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +258,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="uiautomator2_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mitmproxy使用/代理服务器搭建" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\study\u2\uiautomator2_spider\mitmproxy使用\代理服务器搭建\flask_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="uiautomator2_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,9 +306,11 @@
       <item itemvalue="Python.device_info" />
       <item itemvalue="Python.Handle_douyin_u2" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.Handle_douyin_u2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.device_info" />
@@ -262,9 +331,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19600432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,9 +429,59 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="256">
-            <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="89" />
+            <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy使用/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="64">
+            <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/代理服务器搭建_linux.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/flask_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1568036802477" expanded="true" signature="77:109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/didi/handle_decode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy使用/代理服务器搭建/mitmdump_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1568043272851" expanded="true" signature="122:127" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
